@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resumeWithReactRouterDom/static/css/main.562e57f4.css",
+    "main.js": "/resumeWithReactRouterDom/static/js/main.975d3c47.js",
+    "static/media/IMG_0916.JPG": "/resumeWithReactRouterDom/static/media/IMG_0916.7557c1b9dac70e84f516.JPG",
+    "static/media/ununun.png": "/resumeWithReactRouterDom/static/media/ununun.8ad077360563c2f699f8.png",
+    "index.html": "/resumeWithReactRouterDom/index.html",
+    "main.562e57f4.css.map": "/resumeWithReactRouterDom/static/css/main.562e57f4.css.map",
+    "main.975d3c47.js.map": "/resumeWithReactRouterDom/static/js/main.975d3c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.562e57f4.css",
+    "static/js/main.975d3c47.js"
+  ]
+}
