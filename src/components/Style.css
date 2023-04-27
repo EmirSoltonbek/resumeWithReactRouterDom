@@ -1,0 +1,477 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainPage{
+    padding: 50px 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+.contacts{
+    margin-top: 70px;
+}
+.bigCommentBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.commentCard{
+    min-width: 18%;
+    min-height: 80px;
+    background-color: #59ff00;
+    color:azure;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.title{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #59ff00;
+}
+.commentImg{
+    width: 50px;
+    margin: 6px 0px 10px 0px;
+}
+.contacts table{
+    width: 100%;
+    border:3px solid #59ff00;
+    margin-top: 50px;
+}
+.contacts table th,tr,td {
+    border:3px solid #59ff00;
+    padding: 20px;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 25px;
+    color: #000;
+    font-family: 'Signika Negative', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+._container{
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0px 20px;
+    position: relative;
+}
+
+
+/* START HEADER /////////////////////////////////////////////////////////////////////*/
+
+header{
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+}
+.header__left{
+    /* border: 8px solid grey; */
+    width: 25%;
+    height: 100%;
+}
+.header__left_img img{
+    width: 100%;
+    height: 100%;
+}
+.header__left_button button{
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 1em;
+    background-color:grey;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+}
+.header__right{
+    width: 75%;
+    position: relative;
+}
+.header__right_inside{
+    width: 85%;
+    margin: 0 auto;
+}
+.header__right h2{
+    position: relative;
+    margin-top: 80px;
+    display: inline-block;
+}
+.header__right h2 .span1{
+position: absolute;
+top: -65px;
+right: 0;
+background-color:#59ff00;
+color: white;
+padding: 3px 6px;
+border-radius: 10px;
+}
+.header__right h2 .span2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #59ff00;
+    position: absolute;
+    left: 60px;
+    top: -30px;
+}
+.header__right h2 .span3{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #59ff00;
+    position: absolute;
+    left: 55px;
+    top: -13px;
+}
+.header__right b{
+    color: #59ff00;
+}
+
+.header__right_inside h5{
+    font-size: 0.6rem;
+    padding-top: 5px;
+}
+.hr{
+    width: 100%;
+    border-bottom: 1px solid #59ff00;
+    padding: 0px 0px 30px 0px;
+    margin-top: 70px;
+}
+
+.header__right_icons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 57.5px;
+    width: 100%;
+    background-color: #59ff00;
+}
+.header__right_icons a img{
+    width: 30px;
+}
+
+/* FINISH HEADER  ///////////////////////////////////////////////////////////////////// */
+
+/* CONTENT /////////////////////////////////////////////////////////////////////////////*/
+
+.skills-blocks{
+    width: 95%;
+    margin: 70px auto 100px auto;
+    box-shadow: 9px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 10px 20px;
+}
+.skills-blocks h2{
+    font-size: 1.3rem;
+    color: #59ff00;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px;
+}
+.skills-blocks__two-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-blocks__two-blocks_left-block{
+    width: 50%;
+    padding: 20px;
+}
+.skills-blocks__two-blocks_right-block{
+    width: 50%;
+    padding: 20px;
+}
+.skils-name-persent{
+    display: flex;
+    justify-content: space-between;
+}
+.persent-line{
+    width: 100%;
+    border-bottom: 4px solid #80808075;
+    margin: 12px 0px 24px 0px;
+}
+.active-persent{
+    border-bottom: 7px solid #59ff00;
+    margin-bottom: -4px;
+}
+.fr-dev{
+    width: 90%;
+}
+.be-dev{
+    width: 85%;
+}
+.ma-dev{
+    width: 75%;
+}
+.d-dev{
+    width: 80%;
+}
+
+
+
+/* /////////////////////////////////////////////// */
+
+
+.educatioin-information{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.educatioin-information__stick_two-points{
+    height: 200px;
+    border: 2.5px solid white;
+    box-shadow:3px 0px 13px 0px black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.educatioin-information__stick{
+    display: block;
+}
+
+.educatioin-information__stick_two-points span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #59ff00;
+    margin: 20px -10px;
+}
+.education{
+    font-size: 1.3rem;
+    color: #59ff00;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:60px;
+}
+
+.education-cards{
+    width: 40%;
+    background-color:#59ff00;
+    position: absolute;
+    padding: 20px;
+}
+.education-cards h3{
+    font-size: 1.3rem;
+    color: white;
+}
+.education-cards span{
+    font-size: 0.6rem;
+    color: white;
+}
+.education-cards .bg-white{
+    font-size: 0.8rem;
+    color: #59ff00;
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+}
+ .left-triangle{
+    border: 15px solid transparent; border-left: 20px solid #59ff00;
+    position:absolute;
+    right: -33px;
+    top:0;
+ }
+ .right-triangle{
+    border: 15px solid transparent; border-right: 20px solid #59ff00;
+    position:absolute;
+    left: -33px;
+    top:0;
+ }
+ .card1{
+    top: 18px;
+    left: 90px;
+ }
+ .card2{
+    top: 218px;
+    left: 90px;
+ }
+ .card3{
+    bottom: 55px;
+    left: 90px;
+ }
+ .card4{
+    top: 79px;
+    right: 90px;
+ }
+ .card5{
+    top: 279px;
+    right: 90px;
+ }
+ .card6{
+    bottom: -7px;
+    right: 90px;
+ }
+/* FOOTER START */
+
+
+footer{
+    background-color: #59ff00;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 40px;
+}
+.footer-button{
+    display: block;
+    width: 20%;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: #59ff00;
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+textarea{
+    border: 2px solid #59ff00;
+    width: 50%;
+    font-size: 0.5rem;
+}
+
+/* FOOTER END */
+
+
+
+
+ /* media requests ////////////////////////////////////////////////////////////// */
+
+
+
+ @media screen and (max-width:1250px) {
+    .educatioin-information__stick{
+        display: none;
+    }
+    .educatioin-information{
+        display: flex;
+        flex-direction: column;
+    }
+    .education-cards{
+        position: initial;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .left-triangle{
+        display: none;
+    }
+    .right-triangle{
+        display: none;
+    }
+ }
+
+@media screen and (max-width:1070px) {
+    .header__left_button button{
+        padding: 1.3rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+   
+    .header__left_button button{
+        padding: 0.5rem;
+    }
+    .skills-blocks{
+        margin-top: 70px;
+    }
+    .skills-blocks__two-blocks{
+        flex-direction: column;
+    }
+    .skills-blocks__two-blocks_left-block{
+        width: 100%;
+    }
+    .skills-blocks__two-blocks_right-block{
+        width: 100%;
+    }
+    .footer-button{
+        width: 30%;
+    }
+}
+@media screen and (max-width:688px) {
+    .header__left_button button{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:636px){
+html,body{
+    font-size: 20px;
+}
+.footer-button{
+    width: 30%;
+}
+}
+@media screen and (max-width:510px){
+    .header__left_button button{
+        font-size: 0.5rem;
+    }
+    .education-cards{
+        width: 100%;
+    }
+    .footer-button{
+        width: 60%;
+    }
+}
+@media screen and (max-width:425px) {
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .skills-blocks__two-blocks_left-block{
+padding: 0;
+    }
+    
+    .skills-blocks__two-blocks_right-block{
+        padding: 0;
+        padding-top: 40px;
+            }
+
+    .header__left{
+        width: 100%;
+    }
+    .header__right{
+        width: 100%;
+    }
+    .header__right_inside{
+        margin: 0;
+    }
+    textarea{
+        width: 100%;
+    }
+    .footer-button{
+        width: 60%;
+    }
+}
